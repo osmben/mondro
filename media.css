@@ -1,0 +1,351 @@
+/* this is for the desktop */
+@media (max-width:1324px){
+    .input_header{
+       position: relative;
+       left: 26rem;
+    }
+    .icons i{
+        display: none;
+    }
+    .navbar{
+        width: 100%;
+        margin-left: 3rem;
+    }
+    ._pd .bars{
+        display: inline-block;
+        font-size: 30px;
+        z-index: 999;
+        color: #de3935;
+        position: relative;
+        left: 14rem;
+      
+    }
+    .navbar a{
+        display: block;
+        line-height: 5;
+        text-align: center;
+        font-size: 19px;
+    }
+    .navbar{
+        position: absolute;
+        top:75px;
+        right:-240rem;
+        background: #333333;
+        width:50%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        transition: right .3s ease-in-out;
+
+    }
+    input[type='checkbox']:checked + .navbar{
+        transition: right .3s ease-in-out;
+        right:0px;
+
+    }
+    .container .input_header #srch{
+        right:0rem;
+        z-index: 999;
+    }
+        
+    .navbar h3{
+        display: inline-block;
+        margin-top: 20px;
+        border-bottom: 3px solid #fff ;
+        padding: 10px;
+        text-align: center;
+        font-size: 22px;
+        color: #fff;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .servise .items {
+        width: 30%;
+        margin: auto;
+        text-align: center;
+    }
+    .title::before {
+        display: none;
+
+    }
+    .title::after {
+        display: none;
+
+    }
+    .footer {
+        display: none;
+    }
+
+}
+
+@media (max-width:1040px) {
+    ._pd .bars{
+        left: 10rem;
+    }
+    .input_header{
+        left: 23rem;
+     }
+     .title::before {
+        display: none;
+
+    }
+    .title::after {
+        display: none;
+
+    }
+}
+
+@media (max-width:1187px){
+    .title::before {
+        display: none;
+
+    }
+    .title::after {
+        display: none;
+
+    }
+
+}
+
+/* this is for the laptop */
+@media (max-width:957px){
+    ._pd .bars{
+        left: 10rem;
+    }
+    .input_header{
+        left: 19rem;
+     }
+     .wrapper,
+    .portfolio-items,
+     .servise-items{
+         flex-direction: column;
+     }
+     .title::before {
+        display: none;
+        
+    }
+    .title::after {
+        display: none;
+
+
+    }
+    .portfolio .portfolio-items .image{
+        width: 40%;
+        position: relative;
+    }
+    .portfolio-items {
+        padding: 0;
+      }
+      .contact{
+          padding: 80px 0 0 0 ;
+      }
+}
+/* 
+/* this is to fex some issues */
+
+@media (max-width:829px){
+    ._pd .bars{
+        left: 8rem;
+    }
+    .input_header{
+        left: 18rem;
+     }
+     .servise .items {
+        width: 50%;
+        margin: auto;
+        text-align: center;
+     }
+     .title::before {
+        display: none;
+
+    }
+    .title::after {
+          display: none;
+
+
+    }
+    .portfolio-items .image::before {
+        height: 74%;
+        top: 100px;
+    }
+    .portfolio-items .image img {
+        
+        margin-top: 100px;
+    }
+    
+    .portfolio .portfolio-items .image{
+        width: 50%;
+        position: relative;
+    }
+    .wrapper .right {
+        width: 68%;
+}
+
+/* also to fex problems */
+
+@media (max-width:799px){
+    ._pd .bars{
+        left: 5rem;
+    }
+    .input_header{
+        left: 12rem;
+     }
+     .middel .banner h6 {
+        font-size: 9rem;
+     }
+     .title::before {
+        display: none;
+
+    }
+    .title::after {
+        display: none;
+
+
+    }
+    .last-foot {
+        flex-direction: column;
+        padding-top:0 ;
+    }
+    .last-foot .foot-desc{
+        margin-right: 0;
+    }
+    .last-foot .icon {
+        margin-left: 0;
+      }
+   
+} 
+
+@media (max-width:584px){
+    ._pd .bars{
+        left: 3rem;
+    }
+    .input_header{
+        left: 7rem;
+     }
+     .middel .banner h6 {
+        font-size: 8rem;
+     }
+     .servise .items {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+     }
+     .title::before {
+        display: none;
+
+    }
+    .title::after {
+        display: none;
+    }
+    .portfolio .portfolio-items .image{
+        width: 70%;
+        position: relative;
+    }
+    .wrapper .left {
+        width: 100%;
+      }
+      #ipt\ email,
+       #ipt\ name,
+        #ipt\ sub, 
+        #txtarea, 
+        #btn {
+        width: 100%;
+      }
+      #btn{
+        width: 100%;
+      }
+      #txtarea {
+        height: 130px;
+        width: 100%;
+    }
+    #ipt\ sub {
+        width: 100%;
+      }
+      .wrapper .right {
+        width: 100%;
+      }
+      .last-foot {
+        flex-direction: column;
+    }
+}
+
+@media (max-width:496px){
+    ._pd .bars{
+        left: 2rem;
+    }
+    .input_header{
+        left: 4rem;
+     }
+     .navbar{
+         width: 100%;
+     }
+     .middel .banner h6 {
+        font-size: 7rem;
+        text-align: center;
+     }
+     .title::before {
+        display: none;
+
+    }
+    .title::after {
+         display: none;
+
+
+    }
+    .portfolio .portfolio-items .image{
+        width: 70%;
+        position: relative;
+    }
+
+    a {
+        list-style: none;
+        color: #fff;
+        transition: color .3s ease;
+        padding: 10px 13px;
+    }
+}
+
+@media (max-width:440px) {
+    .middel .banner h6 {
+        font-size: 5rem;
+        text-align: center;
+     }
+     .middel .banner .btn {
+        padding: 16px 27px;
+        border: none;
+        background: #de3935;
+        font-size: 16px;
+     }
+     .title::before {
+       display: none;
+
+    }
+    .title::after {
+        display: none;
+
+
+    }
+    .portfolio .portfolio-items .image{
+        width: 80%;
+        position: relative;
+    }
+}
+
+@media (max-width:390px){
+    .portfolio .portfolio-items .image{
+        width: 100%;
+        position: relative;
+    }
+    .portfolio-items .image i,
+    .portfolio-items .image:hover .h3{
+        bottom: 100px;
+    } 
+
+    .icon a{
+        list-style: none;
+        color: #fff;
+        transition: color .3s ease;
+        padding: 10px 10px;
+    }
+
+}
